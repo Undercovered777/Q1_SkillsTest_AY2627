@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Test - 1st Quarter</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+</head>
+<body>
+    <h1>OBMC Entrep Fair Group 1 - Coffee Shop</h1>
+    
+    <h3>Menu:</h3>
+    <input type="checkbox" id="item1" value=99>
+        <label id="item1-label">Americano</label><br>
+    <input type="checkbox" id="item2" value=129>
+        <label id="item2-label">Spanish Latte</label><br>
+    <input type="checkbox" id="item3" value=189>
+        <label id="item3-label">Cold Brew Malt</label><br>
+    <input type="checkbox" id="item4" value=159>
+        <label id="item4-label">Affogato</label><br>
+    <input type="checkbox" id="item5" value=129>
+        <label id="item5-label">Caramel Macchiato</label><br>
+
+    
+    <button type="submit" py-click="create_order">Create Order</button><br><br>
+    
+    <div id="show"></div>
+
+    <py-script src="main.py"></py-script>
+</body>
+</html>
